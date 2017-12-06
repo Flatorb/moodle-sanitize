@@ -1,0 +1,1 @@
+UPDATE mdl_user SET username=concat(id,'@example.com'), password='abcabc', firstname="firstname", lastname='lastname', email='username@example.com', icq='', skype='', yahoo='', aim='', msn='', phone1='', phone2='', institution='', address='', city='', lastip='' WHERE id NOT IN (1, 2)
